@@ -11,11 +11,5 @@ nc.on('connect', function () {
     if (msg.i % 10000===0) {
       console.info(msg);
     }
-    // console.info(msg);
   });
-
-
-  // nc.flush(function() {
-  //   nc.close();
-  // });
 });
